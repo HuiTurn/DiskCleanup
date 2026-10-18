@@ -1,0 +1,339 @@
+.main.page-file-migration {
+  background: var(--surface);
+  padding: 28px 32px 20px;
+}
+.migration-page {
+  max-width: 1080px !important;
+}
+.migration-platform {
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: var(--text-2);
+  background: var(--surface-2);
+  font-size: 11px;
+}
+.migration-intro {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  margin: 22px 0;
+  border-radius: 10px;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.migration-intro p {
+  color: var(--text-2);
+  margin-top: 5px;
+  font-size: 12px;
+}
+.migration-steps {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 24px 0 28px;
+  color: var(--text-3);
+  font-size: 12px;
+}
+.migration-steps li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.migration-steps li > span {
+  width: 23px;
+  height: 23px;
+  display: grid;
+  place-items: center;
+  background: var(--surface-2);
+  border-radius: 50%;
+}
+.migration-steps .active {
+  color: var(--primary);
+}
+.migration-steps .active > span {
+  background: var(--primary-light);
+}
+.migration-section {
+  margin-bottom: 24px;
+}
+.migration-section h2 {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+.migration-folders {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.migration-folder {
+  text-align: left;
+  white-space: normal;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+  min-width: 0;
+}
+.migration-folder:hover:not(:disabled),
+.migration-folder.selected {
+  border-color: var(--primary);
+  background: color-mix(in srgb, var(--primary-light) 22%, var(--surface));
+}
+.migration-folder:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+.migration-folder-heading {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.migration-folder-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  color: var(--primary);
+  background: var(--primary-light);
+  border-radius: 8px;
+}
+.migration-radio {
+  margin-left: auto;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  display: grid;
+  place-items: center;
+}
+.selected .migration-radio {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+.migration-folder-path {
+  display: block;
+  color: var(--text-2);
+  font-size: 11px;
+  margin-top: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.migration-blocked {
+  display: block;
+  color: var(--warning);
+  font-size: 11px;
+  margin-top: 8px;
+  white-space: normal;
+}
+.migration-target-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.migration-target-row p {
+  margin-top: 5px;
+  color: var(--text-2);
+  font-size: 12px;
+}
+.migration-target-row select {
+  font: inherit;
+  max-width: 100%;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  color: var(--text-1);
+  background: var(--surface);
+  padding: 10px;
+}
+.migration-target-row select:disabled {
+  opacity: 0.55;
+}
+.migration-preview {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 8px 16px;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  margin-top: 16px;
+  color: var(--text-2);
+  font-size: 12px;
+}
+.migration-path {
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+.migration-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 4px 0 20px;
+}
+.migration-bottom p {
+  color: var(--text-2);
+  font-size: 11px;
+  line-height: 1.8;
+}
+.migration-feedback {
+  padding: 16px;
+  background: var(--primary-light);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: var(--text-1);
+  overflow-wrap: anywhere;
+}
+.migration-feedback p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.migration-feedback.error {
+  background: var(--danger-light);
+  color: var(--danger);
+}
+.migration-indeterminate {
+  height: 5px;
+  border-radius: 4px;
+  background: var(--border);
+  overflow: hidden;
+  margin: 14px 0;
+}
+.migration-indeterminate span {
+  display: block;
+  width: 30%;
+  height: 100%;
+  background: var(--primary);
+  animation: scan-track 2s infinite ease-in-out;
+}
+.migration-unavailable {
+  padding: 55px 32px;
+  text-align: center;
+  margin-top: 28px;
+}
+.migration-hero-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.migration-unavailable h2 {
+  font-size: 21px;
+  margin: 22px 0 12px;
+}
+.migration-unavailable p {
+  max-width: 480px;
+  margin-inline: auto;
+  color: var(--text-2);
+  line-height: 1.9;
+}
+.migration-folder-tags {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 28px 0;
+}
+.migration-folder-tags span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  background: var(--surface-2);
+  border-radius: 8px;
+}
+.migration-platform-note {
+  font-size: 12px;
+}
+.migration-confirm {
+  width: min(560px, calc(100vw - 40px));
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+.migration-confirm h2 {
+  font-size: 19px;
+}
+.migration-confirm-sub {
+  margin: 7px 0 20px;
+  color: var(--text-2);
+  font-size: 12px;
+}
+.migration-confirm-paths {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 12px;
+  padding: 16px;
+  background: var(--surface-2);
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+.migration-confirm-paths dt {
+  color: var(--text-2);
+}
+.migration-confirm-paths dd {
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+.migration-confirm > p {
+  color: var(--text-2);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.migration-ack {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 22px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.migration-ack input {
+  accent-color: var(--primary);
+  margin-top: 3px;
+}
+@media (max-width: 1000px) {
+  .migration-folders {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .migration-target-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .migration-folders {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .migration-steps {
+    gap: 12px;
+  }
+  .migration-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-height: 850px) {
+  .migration-intro {
+    margin: 18px 0;
+    padding: 15px 18px;
+  }
+  .migration-steps {
+    margin: 20px 0;
+  }
+  .migration-section {
+    margin-bottom: 20px;
+  }
+  .migration-folder {
+    padding: 13px 15px;
+  }
+  .migration-destination {
+    padding: 16px 20px;
+  }
+}

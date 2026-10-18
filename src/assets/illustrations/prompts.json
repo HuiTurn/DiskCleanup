@@ -1,0 +1,35 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "name": "storage",
+      "subject": "a satin white and silver external SSD with a vivid azure blue upright folder and two white document cards on top; a few small blue sparkle accents",
+      "prompt": "Use case: stylized-concept. Production illustration for a polished Chinese disk cleanup desktop application. Subject: a satin white and silver external SSD with a vivid azure blue upright folder and two white document cards on top; a few small blue sparkle accents. Isolated 3D soft studio render, rounded beveled edges, restrained white silver and #1677ff palette, premium minimal macOS-like utility illustration, subtle ambient shadow. Object centered fills 80% of square frame, orthographic three-quarter view. Genuinely transparent alpha background. No text, lettering, logo, watermark, border or interface. Keep silhouettes readable at 180 pixels."
+    },
+    {
+      "name": "migration",
+      "subject": "two satin white external disk drives side by side with a vivid azure blue folder between them and a curved blue arrow pointing from the left drive toward the right drive",
+      "prompt": "Use case: stylized-concept. Production illustration for a polished Chinese disk cleanup desktop application. Subject: two satin white external disk drives side by side with a vivid azure blue folder between them and a curved blue arrow pointing from the left drive toward the right drive. Isolated 3D soft studio render, rounded beveled edges, restrained white silver and #1677ff palette, premium minimal macOS-like utility illustration, subtle ambient shadow. Object centered fills 80% of square frame, orthographic three-quarter view. Genuinely transparent alpha background. No text, lettering, logo, watermark, border or interface. Keep silhouettes readable at 180 pixels."
+    },
+    {
+      "name": "cleanup",
+      "subject": "an elegant small azure blue cleaning broom beside two white document cards with a little blue sparkle, compact balanced composition",
+      "prompt": "Use case: stylized-concept. Production illustration for a polished Chinese disk cleanup desktop application. Subject: an elegant small azure blue cleaning broom beside two white document cards with a little blue sparkle, compact balanced composition. Isolated 3D soft studio render, rounded beveled edges, restrained white silver and #1677ff palette, premium minimal macOS-like utility illustration, subtle ambient shadow. Object centered fills 80% of square frame, orthographic three-quarter view. Genuinely transparent alpha background. No text, lettering, logo, watermark, border or interface. Keep silhouettes readable at 180 pixels."
+    },
+    {
+      "name": "tools",
+      "subject": "an open satin white toolbox with a blue handle, one blue screwdriver and one silver wrench, compact friendly professional composition",
+      "prompt": "Use case: stylized-concept. Production illustration for a polished Chinese disk cleanup desktop application. Subject: an open satin white toolbox with a blue handle, one blue screwdriver and one silver wrench, compact friendly professional composition. Isolated 3D soft studio render, rounded beveled edges, restrained white silver and #1677ff palette, premium minimal macOS-like utility illustration, subtle ambient shadow. Object centered fills 80% of square frame, orthographic three-quarter view. Genuinely transparent alpha background. No text, lettering, logo, watermark, border or interface. Keep silhouettes readable at 180 pixels."
+    },
+    {
+      "name": "scan",
+      "subject": "a small satin white SSD behind a vivid blue magnifying glass",
+      "prompt": "Use case: stylized-concept. Isolated production 3D illustration for a disk utility app. Subject: a small satin white SSD behind a vivid blue magnifying glass. Premium minimal style, soft beveled white and silver surfaces, blue #1677ff accents, soft studio lighting. Centered square composition with comfortable transparent padding, orthographic three-quarter angle. Genuinely transparent alpha background. No lettering, words, logos, watermark or interface. Clean readable silhouette at 150 pixels."
+    },
+    {
+      "name": "startup",
+      "subject": "a standing rounded satin white tile with a recessed vivid blue power symbol (a vertical line entering an open circle), with a small white disk base",
+      "prompt": "Use case: stylized-concept. Isolated production 3D illustration for a disk utility app. Subject: a standing rounded satin white tile with a recessed vivid blue power symbol (a vertical line entering an open circle), with a small white disk base. Premium minimal style, soft beveled white and silver surfaces, blue #1677ff accents, soft studio lighting. Centered square composition with comfortable transparent padding, orthographic three-quarter angle. Genuinely transparent alpha background. No lettering, words, logos, watermark or interface. Clean readable silhouette at 150 pixels."
+    }
+  ]
+}

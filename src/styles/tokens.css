@@ -1,0 +1,80 @@
+/* 设计令牌：跨平台唯一视觉来源。macOS / Windows 共用同一套值。 */
+:root {
+  /* 颜色 */
+  --bg: #f7faff;
+  --sidebar-bg: #edf4fb;
+  --surface: #ffffff;
+  --surface-2: #f6f9fe;
+  --border: #e5eef9;
+  --border-strong: #c9dcf9;
+
+  --primary: #1677ff;
+  --primary-dark: #1e63d6;
+  --primary-light: #dceeff;
+  --primary-grad: linear-gradient(135deg, #328aff, #0064ff);
+
+  --text-1: #10182b;
+  --text-2: #64738e;
+  --text-3: #77869e;
+
+  --danger: #f04438;
+  --danger-light: #fdecec;
+  --success: #22c55e;
+  --success-light: #e8f9ee;
+  --warning: #f59e0b;
+  --warning-light: #fef4e6;
+
+  /* 分类图例色（截图 03 甜甜圈） */
+  --cat-1: #2e7bf6;
+  --cat-2: #31c3ff;
+  --cat-3: #f59e0b;
+  --cat-4: #f04438;
+  --cat-5: #22c55e;
+  --cat-6: #7b61ff;
+  --cat-7: #a8bcd9;
+
+  /* 字体：两平台各自落到最佳系统字体，字号/字重统一 */
+  --font:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Segoe UI",
+    "Microsoft YaHei", "Helvetica Neue", sans-serif;
+
+  /* 几何 */
+  --radius: 10px;
+  --radius-lg: 12px;
+  --sidebar-w: 224px;
+  --gap: 8px; /* 8px 网格基准 */
+}
+
+/* 深色主题：仅覆盖变量，组件样式不变（含 macOS / Windows 一致） */
+:root[data-theme="dark"] {
+  --bg: #101828;
+  --sidebar-bg: #152137;
+  --surface: #182234;
+  --surface-2: #1f2c42;
+  --border: #2b3a55;
+  --border-strong: #3b4d6d;
+
+  --primary: #4a90ff;
+  --primary-dark: #2e7bf6;
+  --primary-light: #1d2c4a;
+  --primary-grad: linear-gradient(90deg, #4a90ff, #2e7bf6);
+
+  --text-1: #e6edf7;
+  --text-2: #a3b3cd;
+  --text-3: #93a4be;
+
+  --danger: #f97066;
+  --danger-light: #3a1f22;
+  --success: #34d399;
+  --success-light: #163a2b;
+  --warning: #fbbf24;
+  --warning-light: #3a2f14;
+
+  --cat-1: #4a90ff;
+  --cat-2: #31c3ff;
+  --cat-3: #fbbf24;
+  --cat-4: #f97066;
+  --cat-5: #34d399;
+  --cat-6: #a78bfa;
+  --cat-7: #64748b;
+}

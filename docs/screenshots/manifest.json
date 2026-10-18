@@ -1,0 +1,46 @@
+[
+  {
+    "file": "docs/screenshots/home.png",
+    "page": "home"
+  },
+  {
+    "file": "docs/screenshots/file-migration.png",
+    "page": "file-migration"
+  },
+  {
+    "file": "docs/screenshots/analyze.png",
+    "page": "analyze"
+  },
+  {
+    "file": "docs/screenshots/results.png",
+    "page": "results"
+  },
+  {
+    "file": "docs/screenshots/junk.png",
+    "page": "junk"
+  },
+  {
+    "file": "docs/screenshots/done.png",
+    "page": "done"
+  },
+  {
+    "file": "docs/screenshots/large-files.png",
+    "page": "large-files"
+  },
+  {
+    "file": "docs/screenshots/duplicates.png",
+    "page": "duplicates"
+  },
+  {
+    "file": "docs/screenshots/launch-items.png",
+    "page": "launch-items"
+  },
+  {
+    "file": "docs/screenshots/system-tools.png",
+    "page": "system-tools"
+  },
+  {
+    "file": "docs/screenshots/settings.png",
+    "page": "settings"
+  }
+]
